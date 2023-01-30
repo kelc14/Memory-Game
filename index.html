@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MEMORY GAME</title>
+    <link rel="stylesheet" href="app.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;600;700&display=swap" rel="stylesheet">
+        
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="game-name center"><h1>MEMORY GAME</h1></div>
+      </div>
+      <div class="nav-bar">
+        <div class="nav-button" id="start">START</div>
+        <div class="nav-button dropdown" id="theme-box">
+          Choose Theme
+          <div class="dropdown-content" id="click-for-theme">
+
+          
+          <div class="theme-options" id="option-1">Gray Diamond</div>
+          <div class="theme-options" id="option-2">Ocean Blue</div>
+          <div class="theme-options" id="option-3">Abstract</div>
+        </div>
+        </div>
+        <div class="score-box"></div>
+      </div>
+    
+    <div id="game">
+    </div>
+
+      <div class="game-over-popup">
+        <div class="game-over">
+          <span>YOU WIN!</span>
+          <span><button class="new-game" id="new-game">PLAY AGAIN</button></span>
+          <span class='score' id="your-score"></span>
+          <span class='score' id="high-score"></span>
+        </div>
+      </div>
+    
+
+    
+    <script src="app.js"></script>
+  </body>
+</html>
